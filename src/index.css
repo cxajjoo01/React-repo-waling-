@@ -1,0 +1,106 @@
+
+/*index.css*/
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 150px;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #00bfff;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 0; 
+  background: linear-gradient(to bottom, #0000ff8a, #ff0000b0);;
+  color: #333; /* Example text color */
+}  
+
+
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #ccc;
+  margin: 0;
+  text-align:center
+}
+.sub-title {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #999;
+  margin: 0;
+  text-align: center;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 30px;
+
+}
+.time-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.btn1 {
+  display: flex;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+
+}
+
+.btn1 button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+ 
+}
+
+.btn1 button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.btn1 button .btn-logo {
+  width: 20px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add space between the logo and text */
+}
+
+.carousel-item img {
+  width: 100%; /* Make the images fill the width of the carousel */
+  height: auto; /* Maintain aspect ratio */
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family :Arial, Helvetica, sans-serif, 
+}
+
+
